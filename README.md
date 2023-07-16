@@ -28,6 +28,21 @@
 
 > ⭐ Display the highest-priority content in complications and notifications, and then use the larger space on tiles and your app to display more content appropriately.
 
+
+## Wear OS Apps
+
+An app is a focused view that handles tasks that are too complex for a complication, tile, or notification. Apps on Wear OS are similar to a mobile app's main user interface.
+
+UX principles
+ * **Focus**
+ * **Shallow and linear** Avoid hierarchies deeper than two levels. Show navigation inline
+ * **Scroll**
+
+#### Bulding an App
+
+* **Compose-bae UI**
+* **View-based UI**
+
 ## Wear OS Tiles
 
 
