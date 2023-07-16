@@ -4,6 +4,30 @@
 <img width="900" alt="image" src="https://github.com/CarolinaChavezDavid/learning-android-wear-os/assets/77591347/3da78df6-2e8f-46ae-9ed2-83619bc6145f">
 </div>
 
+## Principles of Wear OS development
+
+* **Design for critical tasks:** Focus on one or two needs of your target users rather than a full app experience.
+* **Optimize for the wrist:** Help people complete tasks on the watch within seconds to avoid ergonomic discomfort or arm fatigue.
+* **Use the appropriate surface for the task:**
+  * **Complication:** Use if you have a single unit of information that users are likely to want to glance at multiple times a day
+    </br>  *Use complications to track the date, the user's water intake or steps, or the current weather.*
+
+<div align="center">
+<img width="500" alt="image" src="https://github.com/CarolinaChavezDavid/learning-android-wear-os/assets/77591347/349a563b-c6a0-4d1e-8335-4a5047f43ced">
+</div
+
+  * **Notification:** Use  If your content is high-value and highly contextual.
+  * **Tile:**  provide quick, predictable access to information and actions to solve user needs.
+    </br>*Use tiles to track the user’s daily activity progress, quick-start a workout, start a recently played song, or send a message to a favorite contact.*
+  * **App:** An app is immersive, and it's similar to a mobile app's main user interface (UI), though there are some differences.
+* **Add notifications to additional surfaces:**
+* **Support offline scenarios:**
+* **Provide relevant content**
+* **Aid users in completing a task from another device:**
+* **Improve user experience during an app cold start**
+
+> ⭐ Display the highest-priority content in complications and notifications, and then use the larger space on tiles and your app to display more content appropriately.
+
 ## Wear OS Tiles
 
 
