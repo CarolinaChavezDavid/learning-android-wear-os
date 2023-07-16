@@ -1,4 +1,4 @@
-# learning-android-wear-os
+# ⌚ learning-android-wear-os
 
 <div align="center">
 <img width="900" alt="image" src="https://github.com/CarolinaChavezDavid/learning-android-wear-os/assets/77591347/3da78df6-2e8f-46ae-9ed2-83619bc6145f">
