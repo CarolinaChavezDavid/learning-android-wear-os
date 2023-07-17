@@ -1,2 +1,3 @@
 include ':start', ':finished'
 rootProject.name = "Tiles Code Lab"
+include ':practice'

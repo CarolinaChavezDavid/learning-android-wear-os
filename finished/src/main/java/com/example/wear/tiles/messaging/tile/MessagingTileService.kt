@@ -45,7 +45,7 @@ class MessagingTileService : CoroutinesTileService() {
             .stateIn(
                 lifecycleScope,
                 started = SharingStarted.WhileSubscribed(5000),
-                initialValue = null
+                initialValue = null,
             )
     }
 
@@ -87,7 +87,7 @@ class MessagingTileService : CoroutinesTileService() {
         val avatars = imageLoader.fetchAvatarsFromNetwork(
             context = this@MessagingTileService,
             requestParams = requestParams,
-            tileState = latestTileState()
+            tileState = latestTileState(),
         )
         // then pass the bitmaps to the renderer to transform them to ImageResources
         return renderer.produceRequestedResources(avatars, requestParams)
